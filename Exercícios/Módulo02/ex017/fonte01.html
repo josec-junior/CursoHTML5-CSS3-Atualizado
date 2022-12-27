@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title> Fontes em CSS3 </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+            body {
+                font-family: "work Sans", Arial, Helvetica, sans-serif;
+                /*
+                    Medidas Absolutas
+                        cm (centímetros), mm (milímetros), in (polegadas), px (pixels), pt (pontos), pc (paicas).
+
+                    Medidas Relativas
+                        em (relativa a altura da fonte), ex (relativa a altura-x da fonte), rem (relativa ao elemento raiz do documento [<html>]), vw (relativa a largura da tela), vh (relativa a altura da tela), % (relativa a porcentagem ocupada pelo elemento).
+                        
+                    **Observações:
+                        16 px geralmente = 1em;
+                        W3C recomenda utilizar 'px' ou 'em', principalmente 'em', por ser relativo ao tamanho da tela.  
+                */
+
+                font-size: 1.2em;
+
+                /*
+                    Peso da Fonte
+                        lighter, normal, bold, bolder
+                
+                    font-weight: bolder;
+                */
+
+                /*
+                    Estilo da Fonte
+                        normal, italic
+
+                    font-style: italic;
+                */
+            }
+
+            h1 {
+                /*
+                    Simplificando com shorthand para a font
+                        * Ordem: font-style --> font-weight --> font-size --> font-family
+                        * Usar a propriedade em uma linha ao invés de usar várias, como:
+                            font-family: "work Sans", sans-serif;
+                            font-size: 3em;
+                            font-weight: bolder;
+                            font-style: italic;
+                */
+                font: italic bolder 3em "work Sans", sans-serif;
+            }
+
+            h2 {
+                font: bold 2em "work Sans";
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Trabalhando com Fontes </h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero iste beatae labore natus excepturi ea, voluptate veniam! Atque temporibus distinctio corrupti ducimus eligendi ipsam odio illum voluptatem veniam tempore? </p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet facilis minus doloremque consequatur quaerat? Modi aliquam fuga cupiditate id ducimus dolorem quibusdam, voluptas quasi rerum architecto? Eveniet recusandae voluptas dolor! </p>
+        <h2> Subtítulo do Exercício </h2>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum delectus cumque, eligendi quo incidunt eveniet consequuntur porro eius deleniti a beatae, nihil quasi. Nostrum ullam reiciendis earum temporibus nesciunt maiores? </p>
+    </body>
+</html>
