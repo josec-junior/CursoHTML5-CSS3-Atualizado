@@ -10,7 +10,7 @@ main {
 	background-color: white;
 	padding: 1em;
 	margin: 3em auto;
-	width: 35em;
+	max-width: 35em;
 	height: 35em;
 	border-radius: 10px;
 	box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.495);
