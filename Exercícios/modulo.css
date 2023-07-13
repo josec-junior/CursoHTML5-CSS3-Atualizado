@@ -29,3 +29,22 @@ a:hover {
 	text-decoration: none;
 	color: darkgoldenrod;
 }
+
+.btnVoltar {
+	width: 4em;
+	height: 2em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	background-color: #2222FF;
+	color: #FFFFFF;
+	border: 1px solid #2222FF;
+	border-radius: 10px;
+	box-shadow: 2px 5px 5px #2b2a2a90;
+	cursor: pointer;
+}
+
+.btnVoltar:hover {
+	transform: scale(1.1);
+	transition-duration: 0.6s;
+}
